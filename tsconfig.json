@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",          // Use modern JavaScript (ESNext)
+    "module": "ESNext",          // Enable ESM for TypeScript
+    "moduleResolution": "node",  // Use Node module resolution
+    "esModuleInterop": true,     // Allow default imports from non-ES modules
+    "resolveJsonModule": true,   // Allow importing JSON files
+    "skipLibCheck": true,        // Skip library checks for speed
+    "strict": true               // Enable strict type checking
+  },
+  "include": [
+    "src/**/*.ts",
+    "tests/**/*.ts"
+, "tests/testing.test.js"  ]
+}
