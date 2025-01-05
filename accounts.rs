@@ -65,7 +65,7 @@ pub struct ClaimTokens<'info> {
         seeds = [b"token_vault_account", company_name.as_bytes().as_ref()],
         bump,
     )]
-    pub token_vault_account: Account<'info, TokenAccount>, //Vested tokens are her in the vault account
+    pub token_vault_account: Account<'info, TokenAccount>, //Vested tokens are holded in the vault account
 
     #[account(
         seeds = [b"employee_token_account", signer.key().as_ref()],
